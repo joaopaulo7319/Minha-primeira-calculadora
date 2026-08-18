@@ -1,0 +1,47 @@
+*{/* Configuração global do site */
+
+    /* Reset do navegador (SEMPRE COLOCAR) */
+padding: 0;/* Remove o espaçamento interno padrão de todos os elementos */
+margin: 0;/* Remove a margem externa padrão (evita aquela borda branca em volta do site) */
+box-sizing: border-box;/* Faz com que a largura (width) inclua as bordas e paddings, facilitando o cálculo do layout */
+/* FIM DO RESET */
+}
+
+button{
+    width: 300px;
+    padding: 10px;
+    border-radius: 50px;
+    border: none;
+}
+
+#soma{
+    background: red;
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+    margin-bottom: 30px;
+    margin-right: 30px;
+}
+
+#subtracao{
+    background: blue;
+    color: rgb(5, 5, 5);
+    cursor: pointer;
+    font-size: 20px;
+}
+
+#card{
+    background: purple;
+    color: rgb(5, 5, 5);
+    cursor: pointer;
+    font-size: 20px;
+}
+
+p{
+    background: green;
+    width: 300px;
+    padding: 20px;
+    color: white;
+    font-size: 20px;
+    border-radius: 30px;
+}
